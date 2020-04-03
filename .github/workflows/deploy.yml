@@ -19,7 +19,7 @@ jobs:
     - name: Build
       run: hugo --minify
     - name: Deploy
-      uses: easingthemes/ssh-deploy@v2.0.9
+      uses: GarryOne/ssh-deploy@patch-1
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: "-avzr --delete"
