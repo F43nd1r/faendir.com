@@ -22,7 +22,7 @@ jobs:
       uses: GarryOne/ssh-deploy@patch-1
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-        ARGS: "-avzr --delete"
+        ARGS: "-av --delete"
         SOURCE: "public/"
         REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
         REMOTE_USER: ${{ secrets.REMOTE_USER }}
