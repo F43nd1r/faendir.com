@@ -1,0 +1,10 @@
+baseURL = "https://faendir.com/"
+languageCode = "en-us"
+title = "Faendir"
+theme = "ananke"
+sectionPagesMenu = "main"
+
+[params]
+favicon = "favicon.ico"
+stackoverflow = "https://stackoverflow.com/users/4388512/f43nd1r?tab=profile"
+github = "https://github.com/F43nd1r"
