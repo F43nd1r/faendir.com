@@ -1,4 +1,4 @@
-baseURL = "https://faendir.com/"
+baseURL = "https://faendir.com/home"
 languageCode = "en-us"
 title = "Faendir"
 theme = "ananke"
