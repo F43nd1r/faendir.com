@@ -13,13 +13,13 @@ jobs:
       with:
         submodules: true
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v2.4.11
       with:
         hugo-version: '0.68.3'
     - name: Build
       run: hugo
     - name: Deploy
-      uses: GarryOne/ssh-deploy@patch-1
+      uses: easingthemes/ssh-deploy@v2.1.2
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: "-av --delete"
