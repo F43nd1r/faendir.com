@@ -22,7 +22,7 @@ jobs:
         java-version: '1.14'
     - name: Build
       run: hugo
-    - name: Setup postprocessor
+    - name: Postprocess
       run: |
         wget "https://github.com/F43nd1r/inline-remover/releases/download/v1.0/inline-remover-1.0.zip"
         unzip inline-remover-1.0.zip
