@@ -16,8 +16,17 @@ jobs:
       uses: peaceiris/actions-hugo@v2.4.11
       with:
         hugo-version: '0.68.3'
+    - name: Setup Java
+      uses: actions/setup-java@v1
+      with:
+        java-version: '1.14'
     - name: Build
       run: hugo
+    - name: Setup postprocessor
+      run: |
+        wget "https://github.com/F43nd1r/inline-remover/releases/download/v1.0/inline-remover-1.0.zip"
+        unzip inline-remover-1.0.zip
+        inline-remover-1.0/bin/inline-remover public/
     - name: Deploy
       uses: easingthemes/ssh-deploy@v2.1.2
       env:
