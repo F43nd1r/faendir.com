@@ -6,6 +6,5 @@ featured_image_size: "contain"
 omit_header_text: true
 --- 
 
-[ACRA](https://github.com/ACRA/acra) is a library enabling Android Applications to automatically send their crash reports to a report server. It is targeted to android application developers to help them get data from their applications when they crash or behave erroneously.
-
-It was originally developed by [Kevin Gaudin](https://github.com/orgs/ACRA/people/KevinGaudin) and is vurrently maintained by me. 
+[Acrarium](https://github.com/F43nd1r/Acrarium) is a server application collecting and aggregating bug reports sent from [ACRA](https://github.com/ACRA/acra).
+Reports are automatically categorized and visualized, while also allowing to view all report content manually.
