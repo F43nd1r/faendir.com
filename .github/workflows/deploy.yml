@@ -13,9 +13,9 @@ jobs:
       with:
         submodules: true
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2.4.11
+      uses: peaceiris/actions-hugo@v2
       with:
-        hugo-version: '0.68.3'
+        hugo-version: '0.75.1'
     - name: Setup Java
       uses: actions/setup-java@v1
       with:
