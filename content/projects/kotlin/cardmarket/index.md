@@ -1,5 +1,5 @@
 ---
-title: Kotlin Cardmarket API 
+title: Kotlin Cardmarket API
 date: 2019-10-14
 ---
 

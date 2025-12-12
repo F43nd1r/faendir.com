@@ -1,9 +1,6 @@
 ---
 title: F43dit
 date: 2020-04-03
-featured_image: "/images/logo_f43dit.png"
-featured_image_size: "contain"
-omit_header_text: true
 ---
 
 F43dit is an [Opus Magnum](http://www.zachtronics.com/opus-magnum/) solution editing project.

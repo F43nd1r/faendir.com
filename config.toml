@@ -1,13 +1,2 @@
-baseURL = "https://faendir.com/home"
-languageCode = "en-us"
-title = "Faendir"
-theme = "ananke"
-sectionPagesMenu = "main"
-paginate = 12
+theme = "blowfish"
 
-[params]
-favicon = "home/favicon.ico"
-stackoverflow = "https://stackoverflow.com/users/4388512/f43nd1r?tab=profile"
-github = "https://github.com/F43nd1r"
-linkedin = "https://www.linkedin.com/in/lukas-morawietz-391318211/"
-mainSections = ["blog", "projects"]

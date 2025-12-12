@@ -13,23 +13,12 @@ jobs:
       with:
         submodules: true
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v2
+      uses: peaceiris/actions-hugo@v3
       with:
-        hugo-version: '0.101.0'
+        hugo-version: '0.152.2'
         extended: true
-    - name: Setup Java
-      uses: actions/setup-java@v1
-      with:
-        java-version: '1.14'
-    - name: Build
-      run: hugo
-    - name: Postprocess
-      run: |
-        wget "https://github.com/F43nd1r/inline-remover/releases/download/v1.0/inline-remover-1.0.zip"
-        unzip inline-remover-1.0.zip
-        inline-remover-1.0/bin/inline-remover public/
     - name: Deploy
-      uses: easingthemes/ssh-deploy@v2.1.2
+      uses: easingthemes/ssh-deploy@v5
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: "-av --delete"

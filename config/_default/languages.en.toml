@@ -1,0 +1,23 @@
+languageCode = "en"
+languageName = "English"
+weight = 1
+title = "F43nd1r"
+
+[params]
+  displayName = "English"
+  isoCode = "en"
+  rtl = false
+  dateFormat = "2 January 2006"
+  description = "A developer focused on Android, Java, and Kotlin"
+
+[params.author]
+  name = "F43nd1r"
+  image = "/images/logo_faendir.png"
+  headline = "Android/Java/Kotlin Developer"
+  bio = "A developer focused on the Android/Java/Kotlin scene"
+  links = [
+    { github = "https://github.com/F43nd1r" },
+    { linkedin = "https://www.linkedin.com/in/lukas-morawietz-391318211/" },
+    { stack-overflow = "https://stackoverflow.com/users/4388512/f43nd1r?tab=profile" },
+  ]
+
