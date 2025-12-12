@@ -42,7 +42,7 @@ fingerprintAlgorithm = "sha512"
   showRecent = true
   showRecentItems = 100
   cardView = true
-  cardViewScreenWidth = false
+  cardViewScreenWidth = true
   layoutBackgroundBlur = false
   disableHeroImageFilter = false
 
@@ -71,7 +71,7 @@ fingerprintAlgorithm = "sha512"
   showTaxonomies = true
   showAuthorsBadges = false
   showWordCount = false
-  sharingLinks = ["linkedin", "twitter", "github"]
+  sharingLinks = ["linkedin", "bluesky", "mastodon", "reddit"]
   showZenMode = true
 
 [list]
@@ -88,7 +88,7 @@ fingerprintAlgorithm = "sha512"
   orderByWeight = false
   groupByYear = true
   cardView = true
-  cardViewScreenWidth = false
+  cardViewScreenWidth = true
   constrainItemsWidth = false
 
 [sitemap]
