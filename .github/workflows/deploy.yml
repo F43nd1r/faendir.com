@@ -18,7 +18,7 @@ jobs:
         hugo-version: '0.152.2'
         extended: true
     - name: Deploy
-      uses: easingthemes/ssh-deploy@v5
+      uses: easingthemes/ssh-deploy@v5.1.0
       env:
         SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
         ARGS: "-av --delete"
